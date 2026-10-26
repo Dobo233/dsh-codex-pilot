@@ -1,0 +1,51 @@
+{
+    "name":  "dsh-codex-pilot",
+    "version":  "0.1.0",
+    "description":  "Drive the local OpenAI Codex CLI from DSH: codex_run / codex_resume / codex_queue / codex_probe, plus the standalone loopback bridge (HTTP + file mailbox).",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./package.json":  "./package.json"
+                },
+    "files":  [
+                  "lib",
+                  "standalone",
+                  "cordis.patch.yml",
+                  "README.md",
+                  "CHANGELOG.md",
+                  "LICENSE"
+              ],
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           }
+            },
+    "peerDependencies":  {
+                             "@deepseek-ai/dsh-tools":  ">=0.1.5-rc.1 <0.3.0"
+                         },
+    "engines":  {
+                    "node":  "^22.19.0 || >=24.0.0"
+                },
+    "keywords":  [
+                     "deepseek-harness",
+                     "dsh",
+                     "dsh-plugin",
+                     "cordis",
+                     "codex",
+                     "openai-codex",
+                     "agent-bridge"
+                 ],
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/OWNER/dsh-codex-pilot.git"
+                   },
+    "homepage":  "https://github.com/OWNER/dsh-codex-pilot#readme",
+    "bugs":  {
+                 "url":  "https://github.com/OWNER/dsh-codex-pilot/issues"
+             },
+    "license":  "MIT",
+    "publishConfig":  {
+                          "access":  "public"
+                      }
+}

@@ -1,0 +1,11 @@
+{
+  "port": 8787,
+  "host": "127.0.0.1",
+  "codexPath": null,
+  "execArgs": ["exec", "--skip-git-repo-check", "-C", "{cwd}", "{prompt}"],
+  "resumeArgs": null,
+  "modelArgs": ["-m", "{model}"],
+  "defaultCwd": null,
+  "defaultTimeoutMs": 600000,
+  "pollMs": 1000
+}
