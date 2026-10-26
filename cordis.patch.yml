@@ -1,5 +1,5 @@
 # dsh-codex-pilot bundle patch: mounts the host tool row into the DSH composition.
-# Install: dsh plugin --profile web add github:OWNER/dsh-codex-pilot
+# Install: dsh plugin --profile web add github:Dobo233/dsh-codex-pilot
 #   或本地： dsh plugin --profile web add E:\path\to\dsh-codex-pilot
 - insert:
     - id: codex-pilot

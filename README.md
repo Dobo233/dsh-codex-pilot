@@ -15,7 +15,7 @@
 
 ```bash
 # 从 GitHub 装（未发 npm 时）
-dsh plugin --profile web add github:<owner>/dsh-codex-pilot
+dsh plugin --profile web add github:Dobo233/dsh-codex-pilot
 
 # 本地开发
 dsh plugin --profile web add E:\path\to\dsh-codex-pilot
